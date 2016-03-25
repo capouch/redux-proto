@@ -14,6 +14,7 @@ const greetingReducer = (state='' , action) => {
 const nameReducer = (state='John', action) => {
  switch (action.type) {
    case 'CHANGE_NAME':
+   // Why can't I do this with a ? conditional?
     if (state == 'John') {
       // console.log('Switch to Joel');
       return 'Joel'
