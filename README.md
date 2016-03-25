@@ -2,5 +2,6 @@
 Working through basic Redux syntax and semantics
 
 To deploy:
+
     npm install
     npm start
