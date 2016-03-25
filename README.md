@@ -5,3 +5,7 @@ To deploy:
 
     npm install
     npm start
+
+Connect
+
+    http://localhost:3334
