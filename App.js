@@ -35,7 +35,10 @@ const reducers = combineReducers({
  name: nameReducer
 })
 
+// Each change of state will be logged to the console
 const middleware = applyMiddleware(actionLogger)
+
+
 const store = createStore(
  reducers,
  { greeting: '(Roll over me) '},
